@@ -9,8 +9,8 @@ require("@rails/activestorage").start()
 require("channels")
 
 //= require jquery
+//= require bootstrap-sprockets
 //= require jquery_ujs
-//= require bootstrap
 //= require_tree
 
 
@@ -24,5 +24,4 @@ require("channels")
 import { Application } from "stimulus"
 import { definitionsFromContext } from "stimulus/webpack-helpers"
 
-import "bootstrap"
 import "../stylesheets/application"
