@@ -2,15 +2,10 @@
   <title>My Blog - Hello, Rails!</title>
 </head>
 
-<body>
-
-<!-- Navigation -->
-
-
-<!-- Page Header -->
-<header class="masthead" >
-  <%= image_tag 'home-bg.jpg' %>
-  <div class="overlay"></div>
+<header class="masthead">
+  <div class="overlay">
+    <%= image_tag 'home-bg.jpg' %>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
@@ -24,5 +19,3 @@
 </header>
 
 <%= render 'articles/list' %>
-
-<%#= link_to 'My Blog', controller: 'articles' %>
